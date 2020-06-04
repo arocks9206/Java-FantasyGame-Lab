@@ -22,7 +22,13 @@ public abstract class Player {
         return healthPoints;
     }
 
-    public void setHealthPoints(int healthPoints) {
-        this.healthPoints = healthPoints;
+    public void addHealthPoints(int value){
+        this.healthPoints += value;
     }
+
+    public void removeHealthPoints(int value){
+        this.healthPoints -= value;
+    }
+
+
 }

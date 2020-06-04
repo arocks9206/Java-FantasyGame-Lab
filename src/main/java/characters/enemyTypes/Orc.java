@@ -1,4 +1,10 @@
 package characters.enemyTypes;
 
-public class Orc {
+import characters.Enemy;
+
+public class Orc extends Enemy {
+
+    public Orc(int healthPoints) {
+        super(healthPoints);
+    }
 }
